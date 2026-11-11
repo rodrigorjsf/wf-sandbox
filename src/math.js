@@ -13,3 +13,7 @@ export function multiply(a, b) {
 export function max(a, b) {
   return a >= b ? a : b;
 }
+
+export function clamp(x, min, max) {
+  return Math.min(Math.max(x, min), max);
+}
