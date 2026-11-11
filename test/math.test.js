@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { add, subtract, multiply } from "../src/math.js";
+import { add, subtract, multiply, max } from "../src/math.js";
 
 test("add", () => {
   assert.equal(add(2, 3), 5);
@@ -12,4 +12,10 @@ test("subtract", () => {
 
 test("multiply", () => {
   assert.equal(multiply(2, 3), 6);
+});
+
+test("max", () => {
+  assert.equal(max(2, 3), 3);
+  assert.equal(max(5, 1), 5);
+  assert.equal(max(4, 4), 4);
 });
