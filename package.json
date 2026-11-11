@@ -1,0 +1,8 @@
+{
+  "name": "wf-sandbox",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Throwaway repository for end-to-end tests of cursor-workflows-starter.",
+  "scripts": { "test": "node --test" }
+}
