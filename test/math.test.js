@@ -1,9 +1,13 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { add, multiply } from "../src/math.js";
+import { add, subtract, multiply } from "../src/math.js";
 
 test("add", () => {
   assert.equal(add(2, 3), 5);
+});
+
+test("subtract", () => {
+  assert.equal(subtract(5, 3), 2);
 });
 
 test("multiply", () => {
